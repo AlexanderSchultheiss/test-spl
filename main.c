@@ -12,6 +12,8 @@ int main(void) {
 	     m, n, r, S3_CLOCK(m,n,r),
 	     t->dac_m, t->dac_n, t->dac_r,
 	     S3_CLOCK(t->dac_m, t->dac_n, t->dac_r));
+#else
+fprintf(something)
 #endif
 hello
 }
