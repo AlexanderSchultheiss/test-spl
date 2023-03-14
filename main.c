@@ -2,6 +2,8 @@
 
 #if !defined (MESSAGE)
    #define MESSAGE "You wish!"
+#else
+   // do nothing
 #endif
 
 int main(void) {
