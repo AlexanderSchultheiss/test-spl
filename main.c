@@ -1,3 +1,7 @@
+
+
+
+#ifndef _DB_STL_RESOURCE_MANAGER_H__
 #include <stdio.h>
 
 #if !defined (MESSAGE)
@@ -23,3 +27,7 @@ int main(void) {
 hello
 #endif
 }
+#if defined (MESSAGE)
+   #define MESSAGE "You wish!"
+#endif
+#endif
