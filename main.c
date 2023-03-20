@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Some changes at the start
 #if !defined (MESSAGE)
    #define MESSAGE "You wish!"
 #else
